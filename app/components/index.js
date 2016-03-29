@@ -1,0 +1,25 @@
+import { createFactory as fact, createElement as el, cloneElement } from 'react'
+export { fact, el }
+
+export const a = fact('a')
+export const p = fact('p')
+export const b = fact('b')
+export const i = fact('i')
+export const h1 = fact('h1')
+export const h2 = fact('h2')
+export const h3 = fact('h3')
+export const h4 = fact('h4')
+export const h5 = fact('h5')
+export const h6 = fact('h6')
+export const div = fact('div')
+export const img = fact('img')
+export const form = fact('form')
+export const text = fact('text')
+export const span = fact('span')
+export const input = fact('input')
+export const textarea = fact('textarea')
+export const label = fact('label')
+export const button = fact('button')
+export const option = fact('option')
+export const br = fact('br')
+

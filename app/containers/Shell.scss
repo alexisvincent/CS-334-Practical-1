@@ -1,0 +1,24 @@
+.shell {
+
+  .row {
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .content {
+    background: #eee;
+  }
+
+  @import 'Home/Home';
+  @import 'Contact/Contact';
+  @import 'Products/Products';
+  @import 'Order/Order';
+
+  @import 'Header/Header';
+  @import 'Nav/Nav';
+  @import 'Footer/Footer';
+
+}
+

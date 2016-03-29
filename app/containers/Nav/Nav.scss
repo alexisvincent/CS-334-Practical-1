@@ -1,0 +1,22 @@
+.nav {
+  background: linear-gradient( 0deg, #6f9922, #93be35 );
+  color: #eee;
+  height: 40px;
+  font-weight: 300;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+
+  .separator {
+    height: 25px;
+    width: 1px;
+    flex-shrink: 0;
+    margin: 0 20px 0 20px;
+    background: #68911e;
+  }
+
+  .active {
+    text-decoration: underline;
+  }
+}

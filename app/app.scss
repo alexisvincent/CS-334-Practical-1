@@ -1,0 +1,9 @@
+@import '../jspm_packages/npm/normalize.css@4.0.0/normalize.css';
+
+body {
+  background: #0d001a;
+
+  #root {
+    @import 'containers/Shell';
+  }
+}
