@@ -1,3 +1,22 @@
 .product {
-  background: green;
+  .row {
+    flex-direction: column;
+    align-items: flex-start;
+
+
+    .product {
+      display:flex;
+
+      .product-description {
+
+      }
+
+      .product-images {
+
+
+      }
+    }
+
+  }
+
 }

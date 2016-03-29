@@ -2,6 +2,11 @@
 
 body {
   background: #0d001a;
+  color: #6f736e;
+
+  h1 {
+    margin-bottom: 10px;
+  }
 
   #root {
     @import 'containers/Shell';

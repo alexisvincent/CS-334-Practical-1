@@ -11,6 +11,19 @@
     background: #eee;
   }
 
+
+  .page-title {
+    color: #201740;
+    font-weight: 400;
+  }
+
+  .page-separator {
+    height: 1px;
+    width: 100%;
+    background: #94bf36;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+  }
+
   @import 'Home/Home';
   @import 'Contact/Contact';
   @import 'Products/Products';
